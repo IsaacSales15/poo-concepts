@@ -1,12 +1,12 @@
 public class Funcionario extends Pessoa {
     private int mtr;
-    private String funcao;
-    private Double salario;
+    private String function;
+    private Double wage;
 
-    public Funcionario(String name, String birthDate, String funcao, Double salario, int mtr) {
+    public Funcionario(String name, String birthDate, String function, Double wage, int mtr) {
         super(name, birthDate);
-        this.funcao = funcao;
-        this.salario = salario;
+        this.function = function;
+        this.wage = wage;
         this.mtr = mtr;
     }
 
@@ -14,17 +14,17 @@ public class Funcionario extends Pessoa {
         return mtr;
     }
 
-    public String getFuncao() {
-        return funcao;
+    public String getFunction() {
+        return function;
     }
 
-    public double getSalario() {
-        return salario;
+    public double getWage() {
+        return wage;
     }
     @Override
     public String hello() {
         String superMessage = super.hello();
-        return superMessage + " Minha matrícula é: " + this.mtr + ", meu cargo é " + this.funcao + " e o meu salário é de " + this.salario;
+        return superMessage + " Minha matrícula é: " + this.mtr + ", meu cargo é " + this.function + " e o meu salário é de " + this.wage;
     }
 }
 

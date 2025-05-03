@@ -5,7 +5,7 @@ public class Aluno extends Pessoa{
     private int mtr;
     private String curso;
 
-    public Aluno(String name, String birthDate, int matricula) {
+    public Aluno(String name, String birthDate, int mtr) {
         super(name, birthDate);
         this.mtr = mtr;
     }
