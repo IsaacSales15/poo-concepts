@@ -1,12 +1,12 @@
 public class Professor extends Aluno {
-    private int anoFormacao;
+    private int yearTraining;
 
-    public Professor(String name, String birthDate, int matricula, int anoFormacao) {
-        super(name, birthDate, matricula);
-        this.anoFormacao = anoFormacao;
+    public Professor(String name, String birthDate, int registration, int yearTraining) {
+        super(name, birthDate, registration);
+        this.yearTraining = yearTraining;
     }
     public String hello() {
         String superMessage = super.hello();
-        return superMessage + " e eu me formei em " + this.anoFormacao;
+        return superMessage + " e eu me formei em " + this.yearTraining;
     }
 }
