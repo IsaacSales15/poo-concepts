@@ -9,9 +9,9 @@ public class Main {
         student.surname = "Pedrin do Java";
         student.hello();
 
-        Teacher prof = new Teacher("Humberto", "1967-05-23", 12344, 2004 );
-        prof.surname = "bebeto";
-        prof.hello();
+        Teacher teacher = new Teacher("Humberto", "1967-05-23", 12344, 2004 );
+        teacher.surname = "bebeto";
+        teacher.hello();
 
         Employee func = new Employee("Serjo","1978-12-25", "Porteiro", 2.4000, 1234 );
         func.surname = "Serjão foguetes";
