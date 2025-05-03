@@ -1,11 +1,11 @@
 //import java.time.LocalTime;
 
-public class Aluno extends Pessoa{
+public class Student extends Person{
     //Atributos
     private int mtr;
     private String curso;
 
-    public Aluno(String name, String birthDate, int mtr) {
+    public Student(String name, String birthDate, int mtr) {
         super(name, birthDate);
         this.mtr = mtr;
     }

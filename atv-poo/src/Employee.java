@@ -1,9 +1,9 @@
-public class Funcionario extends Pessoa {
+public class Employee extends Person {
     private int mtr;
     private String function;
     private Double wage;
 
-    public Funcionario(String name, String birthDate, String function, Double wage, int mtr) {
+    public Employee(String name, String birthDate, String function, Double wage, int mtr) {
         super(name, birthDate);
         this.function = function;
         this.wage = wage;

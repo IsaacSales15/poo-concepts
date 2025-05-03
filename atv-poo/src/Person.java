@@ -3,12 +3,12 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.Period;
 
-public class Pessoa {
+public class Person {
     private String name;
     private LocalDate birth;
     public String surname = "";
 
-    public Pessoa(String name, String birthDate) {
+    public Person(String name, String birthDate) {
         this.name = name;
         this.birth = LocalDate.parse(birthDate, DateTimeFormatter.ISO_LOCAL_DATE);
     }

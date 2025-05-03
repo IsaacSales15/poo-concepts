@@ -1,7 +1,7 @@
-public class Professor extends Aluno {
+public class Teacher extends Student {
     private int yearTraining;
 
-    public Professor(String name, String birthDate, int mtr, int yearTraining) {
+    public Teacher(String name, String birthDate, int mtr, int yearTraining) {
         super(name, birthDate, mtr);
         this.yearTraining = yearTraining;
     }
